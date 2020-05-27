@@ -1,0 +1,89 @@
+/* GENERAL */
+
+body {
+    font-family: Georgia;
+}
+
+h1 {
+    margin-left: 10%;
+    margin-right: 10%
+    font-size: 35px;
+}
+
+/* NAV-BAR */
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-brand {
+      font-weight: bold;
+      font-size: 25px;
+      margin-left: 10%;
+  }
+
+  nav div ul li {
+      font-size: 18px;
+      margin-left: 10%;
+  }
+  
+
+/* CARDS */
+
+.card_section .row {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.card_section .col {
+    margin-bottom: 40px;
+}
+
+
+/* SLIDERS */
+
+.slider_section .row {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.slider_section .col {
+    margin-bottom: 40px;
+}
+
+  
+  .slider {
+    width: 100%;
+  } 
+  
+  .totalt_sparande {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    height: 19px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 43, 131);
+    cursor: pointer;
+  }
+  
+  .slider_rubrik {
+    font-size: 25px;
+  }
